@@ -40,39 +40,39 @@ export default function Home() {
       <video autoPlay muted loop playsInline poster="/media/poster.jpg" aria-label="Conheça o espaço Sonho de Criança"><source src="https://sonho-de-crianca-buffet.matheusnastaro5.chatgpt.site/media/sonho-video.mp4" type="video/mp4" /></video>
       <div className="home-hero-overlay" />
       <div className="home-hero-content">
-        <p className="home-kicker home-kicker-light">Descubra a</p>
+        <p className="home-kicker home-kicker-light">Onde a imaginação ganha vida</p>
         <h1>Experiência<br /><em>que encanta</em></h1>
-        <p className="home-hero-copy">Um espaço completo para celebrar os momentos mais importantes da infância com diversão, cuidado e memórias para a vida toda.</p>
-        <a className="home-button home-button-pink" href={whatsapp} target="_blank" rel="noreferrer">Quero conhecer <Arrow /></a>
+        <p className="home-hero-copy">Mais do que uma festa, um dia inteiro de descobertas, sorrisos e abraços. Aqui, cada detalhe é preparado para transformar o aniversário em uma memória inesquecível.</p>
+        <a className="home-button home-button-pink" href={whatsapp} target="_blank" rel="noreferrer">Quero viver essa experiência <Arrow /></a>
       </div>
       <div className="home-hero-bottom"><span>Buffet infantil em Piracicaba</span><span>Desde 2002</span></div>
     </section>
 
     <section className="home-credibility" id="credibilidade">
-      <div className="home-section-intro"><p className="home-kicker">Credibilidade que</p><h2>Se constrói<br /><em>com o tempo</em></h2></div>
+      <div className="home-section-intro"><p className="home-kicker">Uma história que emociona</p><h2>Credibilidade<br /><em>que encanta</em></h2></div>
       <div className="home-stats">
-        <article><strong>24</strong><span>anos de mercado</span><p>Uma história construída com muito trabalho, comprometimento e paixão por celebrar.</p></article>
-        <article><strong>7</strong><span>anos consecutivos<br />Top of Mind</span><p>O reconhecimento de quem confia e escolhe o Sonho de Criança para momentos especiais.</p></article>
-        <article><strong>5.500<sup>+</sup></strong><span>festas realizadas</span><p>Experiência comprovada na realização de festas marcantes, alegres e inesquecíveis.</p></article>
+        <article><strong>24</strong><span>anos de mercado</span><p>Desde o primeiro dia, fazemos tudo com carinho para que cada família se sinta parte da nossa história.</p></article>
+        <article><strong>7</strong><span>anos consecutivos<br />Top of Mind</span><p>O carinho e a confiança das famílias que escolhem celebrar os momentos mais importantes conosco.</p></article>
+        <article><strong>5.500<sup>+</sup></strong><span>festas realizadas</span><p>Milhares de sonhos celebrados com alegria, cuidado e a certeza de que cada festa é única.</p></article>
       </div>
       <div className="home-floating-shapes" aria-hidden="true"><span>✦</span><span>◆</span><span>●</span></div>
     </section>
 
     <section className="home-experience" id="experiencia">
-      <div className="home-experience-heading"><p className="home-kicker home-kicker-pink">Uma festa sem preocupações</p><h2>Você comemora o momento...<br /><em>Nós cuidamos de tudo</em></h2><p>para ser inesquecível!</p></div>
+      <div className="home-experience-heading"><p className="home-kicker home-kicker-pink">O seu sonho, do jeitinho que você imaginou</p><h2>Você vive a magia...<br /><em>Nós cuidamos de tudo</em></h2><p>para o seu dia ser inesquecível!</p></div>
       <div className="home-benefits">{benefits.flatMap((pair) => pair.map((benefit) => <div className="home-benefit" key={benefit}><span>✓</span>{benefit}</div>))}</div>
     </section>
 
     <section className="home-gallery" id="estrutura">
-      <div className="home-gallery-copy"><p className="home-kicker">Um lugar para viver histórias</p><h2>Brincar, imaginar<br /><em>e celebrar.</em></h2><p>Cada ambiente foi pensado para encantar as crianças e acolher toda a família. Do primeiro sorriso ao último parabéns, tudo acontece com conforto, segurança e muita diversão.</p><a className="home-button home-button-dark" href={whatsapp} target="_blank" rel="noreferrer">Agendar uma visita <Arrow /></a></div>
+      <div className="home-gallery-copy"><p className="home-kicker">Um cenário para a imaginação ganhar vida</p><h2>Brincar, descobrir<br /><em>e celebrar.</em></h2><p>Um universo colorido para as crianças soltarem a imaginação e um ambiente acolhedor para os adultos aproveitarem cada instante. Aqui, diversão e cuidado caminham juntos.</p><a className="home-button home-button-dark" href={whatsapp} target="_blank" rel="noreferrer">Venha conhecer o espaço <Arrow /></a></div>
       <div className="home-gallery-images"><figure className="home-gallery-main"><img src="/media/infantil-hd.jpeg" alt="Espaço lúdico infantil com casinhas e mercadinho" /><figcaption>Imaginar</figcaption></figure><figure><img src="/media/jogos-hd.jpeg" alt="Área de jogos com pebolim e mesa de sinuca" /><figcaption>Brincar</figcaption></figure><figure><img src="/media/ambiente-hd.jpeg" alt="Salão do Sonho de Criança preparado para receber uma festa" /><figcaption>Celebrar</figcaption></figure></div>
     </section>
 
-    <section className="home-legacy"><div className="home-legacy-number">24</div><div><p className="home-kicker home-kicker-light">Uma história feita de histórias</p><h2>O próximo capítulo<br /><em>pode ser o seu.</em></h2></div><p>Você traz o sonho. A gente cuida de cada detalhe para transformar a comemoração em uma experiência que encanta de verdade.</p></section>
+    <section className="home-legacy"><div className="home-legacy-number">24</div><div><p className="home-kicker home-kicker-light">24 anos realizando sonhos</p><h2>Algumas histórias<br /><em>começam aqui.</em></h2></div><p>O primeiro aniversário, o parabéns em família, a alegria de ver os olhos brilhando. Conte o seu sonho para a gente e deixe o Sonho de Criança cuidar do resto.</p></section>
 
-    <section className="home-questions" id="perguntas"><div><p className="home-kicker">Antes da festa</p><h2>Vamos começar a<br /> imaginar esse dia?</h2></div><div className="home-faq"><details><summary>Como faço para pedir um orçamento?<span>×</span></summary><p>É só chamar a equipe pelo WhatsApp. Conte a data que você imagina e os primeiros detalhes da comemoração para iniciar a conversa.</p></details><details><summary>Posso conhecer melhor o espaço?<span>×</span></summary><p>Sim. Fale com a equipe pelo WhatsApp para combinar a melhor forma de conhecer o Sonho de Criança.</p></details><details open><summary>Onde fica o Sonho de Criança?<span>×</span></summary><p>Estamos na <a className="home-map-link" href={mapUrl} target="_blank" rel="noreferrer">{fullAddress} <Arrow /></a></p></details></div></section>
+    <section className="home-questions" id="perguntas"><div><p className="home-kicker">Antes da festa</p><h2>Vamos começar a<br /> imaginar esse dia?</h2></div><div className="home-faq"><details><summary>Como faço para transformar meu sonho em festa?<span>×</span></summary><p>É só chamar a nossa equipe pelo WhatsApp. Conte como você imagina esse dia, e nós ajudamos a transformar cada desejo em uma celebração cheia de encanto.</p></details><details><summary>Posso conhecer o espaço antes da festa?<span>×</span></summary><p>Claro. Será um prazer receber você para conhecer de perto cada cantinho onde tantos sonhos já viraram histórias inesquecíveis.</p></details><details open><summary>Onde fica o Sonho de Criança?<span>×</span></summary><p>Estamos na <a className="home-map-link" href={mapUrl} target="_blank" rel="noreferrer">{fullAddress} <Arrow /></a></p></details></div></section>
 
-    <section className="home-final" id="contato"><p className="home-kicker home-kicker-light">Vamos começar?</p><h2>Seu momento especial<br /><em>merece ser inesquecível.</em></h2><a className="home-button home-button-pink" href={whatsapp} target="_blank" rel="noreferrer">Falar com a nossa equipe <Arrow /></a></section>
+    <section className="home-final" id="contato"><p className="home-kicker home-kicker-light">A sua história merece um cenário especial</p><h2>Seu grande dia começa<br /><em>com um sonho.</em></h2><a className="home-button home-button-pink" href={whatsapp} target="_blank" rel="noreferrer">Quero realizar meu sonho <Arrow /></a></section>
 
     <footer className="home-footer"><a href="#inicio"><img src="/media/logo.png" alt="Sonho de Criança" /></a><p>Buffet infantil · Piracicaba/SP</p><a href="https://instagram.com/sonhodecriancabuffet" target="_blank" rel="noreferrer">@sonhodecriancabuffet</a></footer>
     <a className="instagram-float" href="https://instagram.com/sonhodecriancabuffet" target="_blank" rel="noreferrer" aria-label="Acessar o Instagram do Sonho de Criança"><InstagramIcon /></a>
